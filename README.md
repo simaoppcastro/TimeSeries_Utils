@@ -1,2 +1,2 @@
-# ML_MasterThesis
-Innerliner03
+# TimeSeries Utilities
+Nasa and Optdigits test
