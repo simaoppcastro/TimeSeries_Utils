@@ -11,11 +11,11 @@ import scipy.stats as stats
 import os
 
 def joinLocalData():
-    path1 ='C:/Users/uic54751/Desktop/Thesis/ML/Data/Innerliner03/InfluxDB_Innerliner03_03112020.csv'
-    path2 ='C:/Users/uic54751/Desktop/Thesis/ML/Data/Innerliner03/InfluxDB_Innerliner03_08112020.csv'
-    path3 ='C:/Users/uic54751/Desktop/Thesis/ML/Data/Innerliner03/InfluxDB_Innerliner03_20112020.csv'
-    path4 ='C:/Users/uic54751/Desktop/Thesis/ML/Data/Innerliner03/InfluxDB_Innerliner03_26112020.csv'
-    path5 ='C:/Users/uic54751/Desktop/Thesis/ML/Data/Innerliner03/InfluxDB_Innerliner03_05122020.csv'
+    path1 ='.csv'
+    path2 ='.csv'
+    path3 ='.csv'
+    path4 ='.csv'
+    path5 ='.csv'
 
     label1, data1 = ut.loadLocalData(sPath=path1, bHeader=None)
     # print(data1.shape[0], data1.shape[1])
@@ -46,7 +46,7 @@ def joinLocalData():
 
 def main():
     # localPath = 'C:/Users/uic54751/Desktop/Thesis/ML/Data/Innerliner03/InfluxDB_Innerliner03_20112020.csv'
-    sLocalPath = 'C:/Users/uic54751/Desktop/Thesis/ML/Data/Innerliner03/InfluxDB_Innerliner03_05122020.csv'
+    sLocalPath = '.csv'
     bStartTimer = True
     bLoadLocalData = True
     bGetInfluxData = False
@@ -101,7 +101,7 @@ def main():
     # print(f"Scipy computed Pearson r: {r} and p-value: {p}")
 
 def debug():
-    sLocalPath = 'C:/Users/uic54751/Desktop/Thesis/ML/Data/Innerliner03/InfluxDB_Innerliner03_05122020.csv'
+    sLocalPath = '.csv'
     bStartTimer = True
     bLoadLocalData = True
     bGetInfluxData = False
